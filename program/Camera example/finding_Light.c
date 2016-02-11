@@ -1,16 +1,17 @@
 #include <p30f6014A.h> 
 #include <stdlib.h>//for random numbers 
 #include <a_d/e_prox.h>
-#include <motor_led/e_init_port.h>
-#include <motor_led/e_motors.h>
+#include "motor_led/e_init_port.h"
+#include "motor_led/e_epuck_ports.h"
+#include "motor_led/advance_one_timer/e_motors.h"
+#include "motor_led/advance_one_timer/e_agenda.h"
 #include <a_d/e_ad_conv.h>
 #include "string.h"
 #include "math.h" 
-#include <motor_led/e_epuck_ports.h>
-#include <motor_led/e_led.h>
 #include <uart/e_uart_char.h>
-
 void finding_light (void) {
+
+	e_start_agendas_processing();
 
 	int value0_A, value1_A, value2_A, value3_A, value4_A, value5_A, value6_A, value7_A, 
 		value0, value1, value2, value3, value4, value5, value6, value7;
@@ -62,7 +63,7 @@ void finding_light (void) {
 			
 		} else if (value2 < 1000 && value0 < 1000 && value1 < 1000 && value7 < 1000 && value5 < 1000 && value6 < 1000) {
 
-				if ( ((value1_A < 4000) || (value2_A < 4000)) && ((value0_A < 4000) || (value7_A < 4000)) ) {
+				if ( ((value1_A < 3000) || (value2_A < 3000)) && ((value0_A < 3000) || (value7_A < 3000)) ) {
 		
 						LED0 = LED7 = 1;
 						LED1 = LED2 = LED3 = LED4 = LED5 = LED6 = 0;
@@ -70,7 +71,7 @@ void finding_light (void) {
 						e_set_speed_right(800);
 						for(k=0; k<1000000; k++) { asm("nop"); }
 
-				} else if ( (value1_A < 4000) || (value2_A < 4000) ) {
+				} else if ( (value1_A < 3000) || (value2_A < 3000) ) {
 						LED0 = LED7 = LED3 = LED4 = LED5 = LED6 = 0;
 						LED1 = LED2 = 1;
 						e_set_speed_left(500);
@@ -84,14 +85,14 @@ void finding_light (void) {
 						e_set_speed_right(-500);
 						for(k=0; k<1000000; k++) { asm("nop"); }				
 		
-				} else if ((value5_A < 4000) || (value6_A < 4000) ) {
+				} else if ((value5_A < 3000) || (value6_A < 3000) ) {
 						LED0 = LED7 = LED3 = LED4 = LED1 = LED2 = 0;
 						LED5 = LED6 = 1;
 						e_set_speed_left(-500);
 						e_set_speed_right(500);
 						for(k=0; k<1000000; k++) { asm("nop"); }
 		
-				} else if ( (value0_A < 4000) || (value7_A < 4000) ) {
+				} else if ( (value0_A < 3000) || (value7_A < 3000) ) {
 						LED0 = LED7 = 1;
 						LED1 = LED2 = LED3 = LED4 = LED5 = LED6 = 0;
 						e_set_speed_left(800);

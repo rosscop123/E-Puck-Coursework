@@ -19,10 +19,7 @@ void avoid_light (void) {
 		value0, value1, value2, value3, value4, value5, value6, value7;
 	long k;
 	char buffer[1];
-
-	e_init_port();
-  	e_init_prox();
-	e_init_motors();
+	e_start_agendas_processing();
 	
 	while (1) {
 	
