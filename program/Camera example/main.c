@@ -7,7 +7,7 @@
 #include "motor_led/e_epuck_ports.h"
 #include "motor_led/advance_one_timer/e_motors.h"
 #include "motor_led/advance_one_timer/e_agenda.h"
-
+#include "finding_Light.h"
 #include "imageCapture.h"
 #include "findRed.h"
 #include "followGreen.h"
@@ -43,8 +43,11 @@ int main() {
 	} else if (selector==4) {
 		followHand();
 	} else if (selector==5) {
-
-	} else {
+		finding_light();
+	} else if(selector==6){
+		avoid_light();
+	}else{
+	
 	}
 
 	

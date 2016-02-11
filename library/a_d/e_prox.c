@@ -78,7 +78,7 @@ void init_tmr1(void)
   T1CONbits.TON = 1;            // start Timer1
 }
 
-void __attribute__((interrupt, auto_psv, shadow))
+void __attribute__((interrupt, auto_psv))
 _T1Interrupt(void)
 {
 // read ambient light and switch on leds in a first phase

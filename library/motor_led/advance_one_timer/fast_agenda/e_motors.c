@@ -403,7 +403,7 @@ int e_get_steps_left()
  */
 void e_set_steps_left(int set_steps)
 {
-	nbr_steps_left=steps_left;
+	nbr_steps_left=set_steps;
 }
 
 /*! \brief Give the number of right motor steps
@@ -420,5 +420,5 @@ int e_get_steps_right()
  */
 void e_set_steps_right(int set_steps)
 {
-	nbr_steps_right=steps_right;	
+	nbr_steps_right=set_steps;	
 }

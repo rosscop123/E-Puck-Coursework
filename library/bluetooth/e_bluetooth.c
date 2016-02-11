@@ -349,8 +349,6 @@ char e_bt_write_local_pin_number(char *PIN)
 	return read[6];//return error 0=no error
 }
 
-
-
 /*! \brief Write the name on this e-puck's bluetooth module
  * \param name A pointer to store the name
  * \return bluetooth error if one occur, 0 otherwise
@@ -520,22 +518,23 @@ char e_bt_etablish_SPP_link(char *address)
 	send[12]=address[5];
 	send[13]=0x01;
 	send[14]=0x03;
+	e_send_uart1_char(send,15);
 	
+	i=0;
+	c=0;
 	do{
-		e_send_uart1_char(send,15);	
-		i=0;
-		c=0;	
- 		do{
-			i=0;
-    	
-      		if (e_getchar_uart1(&read[i])){	
+ 		i=0;
+ 		do
+    	{
+      		if (e_getchar_uart1(&read[i]))		//read response
+			{	
 				c=read[i];
      			i++;
 			}	
     	}
    		while (((char)c != 0x03)||(i<(read[3]+6)));
 	}		
-	while(read[6]!=0x00);
+	while((read[2]!=0x69)&(read[2]!=0x0B));//spp link etablished
 	    
 	return read[6];	//return rfcomm error 0=no error	
 }

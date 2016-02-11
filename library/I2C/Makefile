@@ -24,16 +24,17 @@ CC       = pic30-elf-gcc
 LD 	 = pic30-elf-ld
 ASM	 = pic30-elf-as
 CFLAGS   = -g -Wall -mcpu=30F6014A 
-CPPFLAGS = -I../ -I../std_microchip/support/h -I../std_microchip/include -I../uart -I../motor_led -I../I2C -I../codec -I../a_d 
+CPPFLAGS = -I../ -I../std_microchip/support/h -I../std_microchip/include 
 
 
 # ==============================================================================
 # Dependencies & rules
 # ------------------------------------------------------------------------------
-all: $(OBJS)
+libI2C.a: $(OBJS)
+	ar rsc $@ $(OBJS)
 
 %.o: %.s
-	$(ASM) -g -I../std_microchip/support/inc -p=30F6014A $< -o $@
+	$(ASM) -g -I../std_microchip/support/inc -I/usr/share/pic30-support/inc -p=30F6014A $< -o $@
 # ==============================================================================
 # Clean up directory
 # ------------------------------------------------------------------------------

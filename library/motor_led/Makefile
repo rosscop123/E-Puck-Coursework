@@ -33,6 +33,9 @@ CPPFLAGS = -I../ -I../std_microchip/support/h -I../std_microchip/include -I../ua
 libmotor_leds.a: $(OBJS)
 	ar rsc $@ $(OBJS)
 
+libinit_port.a: e_init_port.o
+	ar rsc $@ $<
+
 %.o: %.s
 	$(ASM) -g -I../std_microchip/support/inc -I/usr/share/pic30-support/inc -p=30F6014A $< -o $@
 # ==============================================================================
