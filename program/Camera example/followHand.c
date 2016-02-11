@@ -53,7 +53,7 @@ void hImage(){
 		blue = ((hbuffer[2*i+1] & 0x1F) << 3);
 		// convert to RGB to Hue
 		double hue = RGB2Hue(red, green, blue);
-		if(hue>270 && hue<300){
+		if(hue>6 && hue<38){
 			hnumbuffer[i] = 1;
 			vis +=1;
 		}else{
