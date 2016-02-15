@@ -8,17 +8,19 @@
 #include "motor_led/advance_one_timer/e_motors.h"
 #include "motor_led/advance_one_timer/e_agenda.h"
 #include "finding_Light.h"
+#include "avoidlight.h"
 #include "imageCapture.h"
 #include "findRed.h"
 #include "followGreen.h"
 #include "followHand.h"
+#include "runBreitenberg_adv.h"
 
 int getselector() {
 	return SELECTOR0 + 2*SELECTOR1 + 4*SELECTOR2 + 8*SELECTOR3;
 }
 
 int main() {
-	char bufferDebug[80];
+//	char bufferDebug[80];
 	int selector;
 //init
 	e_init_port();
@@ -28,24 +30,17 @@ int main() {
 	selector=getselector();
 	
 	if (selector==0) {
+		run_breitenberg_follower();
 	} else if (selector==1) {
-		//sprintf(bufferDebug, "img Cap\n\r");
-		//e_send_uart1_char(bufferDebug,strlen(bufferDebug));
-		imageCapture();
+		finding_light();
 	} else if (selector==2) {
-		//sprintf(bufferDebug, "Red\n\r");
-		//e_send_uart1_char(bufferDebug,strlen(bufferDebug));
-		findRed();
+		avoid_light();
 	} else if (selector==3) {
-		//sprintf(bufferDebug, "Green\n\r");
-		//e_send_uart1_char(bufferDebug,strlen(bufferDebug));
-		followGreen();
+		run_breitenberg_shocker();
 	} else if (selector==4) {
 		followHand();
 	} else if (selector==5) {
-		finding_light();
 	} else if(selector==6){
-		avoid_light();
 	}else{
 	
 	}

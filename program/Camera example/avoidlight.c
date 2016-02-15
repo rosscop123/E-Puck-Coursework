@@ -4,7 +4,8 @@
 #include <motor_led/e_init_port.h>
 #include <motor_led/e_motors.h>
 #include <a_d/e_ad_conv.h>
- #include <stdlib.h>//for random numbers #include "stdio.h"
+#include "motor_led/advance_one_timer/e_agenda.h"
+#include <stdlib.h>//for random numbers #include "stdio.h"
 #include "string.h"
 #include "math.h" 
 #include <motor_led/e_epuck_ports.h>
@@ -18,7 +19,7 @@ void avoid_light (void) {
 	int value0_A, value1_A, value2_A, value3_A, value4_A, value5_A, value6_A, value7_A, 
 		value0, value1, value2, value3, value4, value5, value6, value7;
 	long k;
-	char buffer[1];
+	//char buffer[1];
 	e_start_agendas_processing();
 	
 	while (1) {
@@ -113,14 +114,3 @@ void avoid_light (void) {
 	
 	}
 }
-
-
-
-
-
-
-
-
-
-
- 
