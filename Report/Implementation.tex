@@ -1,0 +1,43 @@
+\section{Implementation}
+\label{sec:implementation}
+This section will describe how each of the tasks mentioned in section \ref{sec:design} have been implemented, explaining the functions within the code, and any discrepancies between the design and final implementation.
+
+The design was gradually implemented in stages, building up to the final completed solution to each task. To make the project easier to implement the demo project provided on the E-Puck\cite{epuck} website was used as a template.
+\subsection{Main File}
+Within the demo project one can find the main file. This main file starts by finding the position of the selection, a single hexadecimal digit. This selector then decides which function will be called. This becomes very useful to the groups project as then each behaviour needed to be implemented can be ran when a unique selector is selected. Table \ref{table:selectorOptions} clearly shows the possible choices to the user with the code being displayed in the code snippet \ref{code:mainSelector}.
+
+\begin{table}
+	\centering
+	\begin{tabular}{|c | c|} 
+	\hline
+	Selector & Function \\ \hline
+	0 & run\_breitenberg\_follower \\ \hline
+	1 & finding\_light \\ \hline
+	2 & avoid\_light \\ \hline
+	3 & run\_breitenberg\_shocker \\ \hline
+	4 & followHand \\ \hline
+	\end{tabular}
+	\label{table:selectorOptions}
+	\caption{A table to show what function is ran for each selector.}
+\end{table}
+
+The functions shown in table \ref{table:selectorOptions} will each be discussed in detail throughout this section.
+
+\begin{lstlisting}[frame=single,caption={Descriptive Caption Text},label=code:mainSelector, float,floatplacement=H]
+	selector=getselector();
+	if (selector==0) {
+		run_breitenberg_follower();
+	} else if (selector==1) {
+		finding_light();
+	} else if (selector==2) {
+		avoid_light();
+	} else if (selector==3) {
+		run_breitenberg_shocker();
+	} else if (selector==4) {
+		followHand();
+	} else{
+	}
+\end{lstlisting}
+
+\subsection{Breitenburg Follower}
+The `run\_breitenburg\_follower' function is a function that was taken from the demo project mentioned previously

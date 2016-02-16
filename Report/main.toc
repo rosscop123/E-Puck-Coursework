@@ -1,0 +1,16 @@
+\contentsline {section}{\numberline {1}Introduction}{2}
+\contentsline {section}{\numberline {2}Background}{2}
+\contentsline {subsection}{\numberline {2.1}Behaviours}{2}
+\contentsline {subsection}{\numberline {2.2}E-Puck}{2}
+\contentsline {subsection}{\numberline {2.3}HSV}{2}
+\contentsline {subsection}{\numberline {2.4}Skin Colour}{2}
+\contentsline {section}{\numberline {3}Design}{2}
+\contentsline {subsection}{\numberline {3.1}Task A}{3}
+\contentsline {subsubsection}{\numberline {3.1.1}Flowchart}{3}
+\contentsline {subsection}{\numberline {3.2}Task B}{3}
+\contentsline {subsubsection}{\numberline {3.2.1}Flowchart}{4}
+\contentsline {section}{\numberline {4}Implementation}{4}
+\contentsline {subsection}{\numberline {4.1}Main File}{4}
+\contentsline {subsection}{\numberline {4.2}Breitenburg Follower}{5}
+\contentsline {section}{\numberline {5}Results \& Testing}{5}
+\contentsline {section}{\numberline {6}Conclusion}{5}
