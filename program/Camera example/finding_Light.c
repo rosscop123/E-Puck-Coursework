@@ -16,8 +16,7 @@ void finding_light (void) {
 
 	e_start_agendas_processing();
 
-	int value0_A, value1_A, value2_A, value3_A, value4_A, value5_A, value6_A, value7_A, 
-		value0, value1, value2, value3, value4, value5, value6, value7, averageLight;
+	int value0_A, value1_A, value2_A, value3_A, value4_A, value5_A, value6_A, value7_A, averageLight;
 	long k;
 	//char bufferDebug[40];
 	e_init_port();
@@ -34,18 +33,9 @@ void finding_light (void) {
 	value6_A = e_get_ambient_light(6);
 	value7_A = e_get_ambient_light(7);
 	
-	averageLight = (value0_A+value1_A+value2_A+value3_A+value4_A+value5_A+value6_A+value7_A)/8-100;
+	averageLight = (value0_A+value1_A+value2_A+value3_A+value4_A+value5_A+value6_A+value7_A)/8-200;
 	for(k=0;k<20000;k++){}
 	while (1) {
-		
-		value0 = e_get_prox(0);
-		value1 = e_get_prox(1);
-		value2 = e_get_prox(2);
-		value3 = e_get_prox(3);	
-		value4 = e_get_prox(4);	
-		value5 = e_get_prox(5);
-		value6 = e_get_prox(6);
-		value7 = e_get_prox(7);
 		
 		value0_A = e_get_ambient_light(0);
 		value1_A = e_get_ambient_light(1);
@@ -65,8 +55,8 @@ void finding_light (void) {
 		else if ((value0_A+value1_A)/2 < averageLight) {
 			LED0 = LED1 = 1;
 			LED1 = LED3 = LED4 = LED5 = LED6 = LED7 = 0;
-			e_set_speed_left(600);
-			e_set_speed_right(200);
+			e_set_speed_left(800);
+			e_set_speed_right(400);
 			for(k=0; k<100000; k++) {}
 		}
 		else if ((value1_A+value2_A)/2 < averageLight) {
@@ -93,8 +83,8 @@ void finding_light (void) {
 		else if ((value7_A+value6_A)/2 < averageLight) {
 			LED7 = LED6 = 1;
 			LED0 = LED1 = LED2 = LED3 = LED4 = LED5 = 0;
-			e_set_speed_left(200);
-			e_set_speed_right(600);
+			e_set_speed_left(400);
+			e_set_speed_right(800);
 			for(k=0; k<100000; k++) {}
 		}
 		else if ((value6_A+value5_A)/2 < averageLight) {

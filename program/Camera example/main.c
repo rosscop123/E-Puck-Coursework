@@ -39,10 +39,7 @@ int main() {
 		run_breitenberg_shocker();
 	} else if (selector==4) {
 		followHand();
-	} else if (selector==5) {
-	} else if(selector==6){
 	}else{
-	
 	}
 
 	

@@ -95,14 +95,15 @@ void hturn(void) {
 	}
 }
 void hforward(void){
-	e_set_speed_left (500);
-	e_set_speed_right(500);
+	e_set_speed_left (600);
+	e_set_speed_right(600);
 }
 //Main function of follower
 void followHand(void){
 	int value0, value1, value2, value3,
-		value4, value5, value6, value7;
+		value4, value5, value6, value7, handFound;
 	long i;
+	handFound = 0;
 	//basic set up for the camera and 
 	e_init_ad_scan(ALL_ADC);
 	e_calibrate_ir();
@@ -124,15 +125,20 @@ void followHand(void){
 		value6 = e_get_calibrated_prox(6);
 		value7 = e_get_calibrated_prox(7);
 		if(value0>100 || value7>100){
-			hgetImage();
-			hImage();
-			//Take a section of the center, this means if there is an error with one it won't effect it as a whole.
-			centreValue = 0;
-			for(i=20; i<60; i++){
-				centreValue +=hnumbuffer[i];
+			if(!handFound){
+				hgetImage();
+				hImage();
+				//Take a section of the center, this means if there is an error with one it won't effect it as a whole.
+				centreValue = 0;
+				for(i=20; i<60; i++){
+					centreValue +=hnumbuffer[i];
+				}
+				if(centreValue > 15){
+					handFound = 1;
+				}
 			}
 			//centreValue = hnumbuffer[38] + hnumbuffer[39] + hnumbuffer[40] + hnumbuffer[41] + hnumbuffer[42] + hnumbuffer[43]; // removes stray 
-			if(centreValue > 15){
+			if(handFound){
 				e_destroy_agenda(hturn);
 				if(value1>value6+50){
 					e_set_speed_left (800);
@@ -147,7 +153,7 @@ void followHand(void){
 				}
 			}
 		}
-		else if(value2>100 || value3>100){
+		/*else if(value2>100 || value3>100){
 			e_destroy_agenda(hturn);
 			e_set_speed_left (800);
 			e_set_speed_right(-800);
@@ -156,8 +162,9 @@ void followHand(void){
 			e_destroy_agenda(hturn);
 			e_set_speed_left (-800);
 			e_set_speed_right(800);
-		}
+		}*/
 		else{
+			handFound = 0;
 			e_destroy_agenda(hturn);
 			e_set_speed_left(0);
 			e_set_speed_right(0);
