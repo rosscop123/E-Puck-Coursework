@@ -12,8 +12,6 @@ The first and final behaviours rely heavily on the infrared senses situated on a
 
 To create the second behaviour of an attraction to light the E-Puck must be implemented in a similar way to the previously mentioned behaviours, although instead of reading the infrared sensor value for distance one will measure the amount of ambient light falling onto the device.
 
-\subsubsection{Flowchart}
-
 \subsection{Task B}
 Task B requires the group to implement 2 different E-Pucks and cause each to do their own tasks. One E-Puck will be required to follow a hand whilst the other E-Puck will be required to follow the first E-Puck. This may seem similar after implementing the behaviours from task A, although many issues could arise with this task. These issues will be discussed toward the end of this section.
 
@@ -24,3 +22,34 @@ For the first E-Puck, the E-Puck which will be following a human hand, the group
 The E-Puck will begin by discovering any near-by objects using the infra-red sensors before turning the front camera towards any discovered objects. The front camera will then read in the image of the object. Removing a few rows of pixels from the image, for fast processing, the pixels will then be processed to find any required colour that the E-Puck is looking for, the colour of a hand. This processing will be done in the HSV colour plane as to reduce the impact lighting has on the colour of an image.
 
 \subsubsection{Flowchart}
+\begin{figure}
+	\centering
+	\captionsetup[subfigure]{justification=centering}
+	\begin{subfigure}{0.45\textwidth}
+		\centering
+		\includegraphics[width=0.5\textwidth]{figures/FollowLight.png}
+		\label{fig:flowFollowLight}
+		\caption{Flow chart describing \\ the follow light function}
+	\end{subfigure}
+	\begin{subfigure}{0.45\textwidth}
+		\centering
+		\includegraphics[width=0.5\textwidth]{figures/AvoidLight.png}
+		\label{fig:flowAvoidLight}
+		\caption{Flow chart describing \\ the avoid light function}
+	\end{subfigure}
+	\begin{subfigure}{0.9\textwidth}
+		\centering
+		\includegraphics[width=0.3\textwidth]{figures/FollowHand.png}
+		\label{fig:flowFollowHand}
+		\caption{Flow chart describing \\ the follow hand function}
+	\end{subfigure}
+\caption{Flow charts describing 3 of the different behaviours implemented within the E-Puck}
+\label{fig:flowBehav}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics{figures/Main.png}
+\caption{Flow chart describing how the main function will be implemented}
+\label{fig:flowMain}
+\end{figure}

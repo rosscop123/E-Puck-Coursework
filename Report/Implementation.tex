@@ -17,8 +17,8 @@ Within the demo project one can find the main file. This main file starts by fin
 	3 & run\_breitenberg\_shocker \\ \hline
 	4 & followHand \\ \hline
 	\end{tabular}
-	\label{table:selectorOptions}
 	\caption{A table to show what function is ran for each selector.}
+	\label{table:selectorOptions}
 \end{table}
 
 The functions shown in table \ref{table:selectorOptions} will each be discussed in detail throughout this section.
@@ -122,7 +122,7 @@ The first stage of this function is very simple and can be done easily, in the s
 These sensors then trigger whether an image should be taken. If the image is to be taken then it is done so by calling the `hgetImage' function which has been taken from the aforementioned demo project and renamed. The following `hImage' function then begins to process the image, firstly converting the RGB image to HSV. The code and algorithm for this can be seen in code snippet \ref{code:RGB2HSV}. One may notice that only the hue has been calculated and this is because only the hue is needed as the saturation and value intensity are both environment dependent. Therefore finding a hand in a brightly light room or a poorly light room should obtain similar results.
 
 \vspace{5mm}
-\begin{lstlisting}[caption={Converting RGB pixels to HSV},label=code:RGB2HSV]
+\begin{lstlisting}[caption={Converting RGB pixels to HSV},label=code:RGB2HSV,float]
 //RGB turned into an integer value for comparison
 red = (hbuffer[2*i] & 0xF8);
 green = (((hbuffer[2*i] & 0x07) << 5) | ((hbuffer[2*i+1] & 0xE0) >> 3));

@@ -1,2 +1,21 @@
-\section{Results \& Testing}
+\section{Testing \& Results}
 \label{sec:ResultsTesting}
+This section will first look at the testing that was completed throughout the project to ensure all the processes the were implemented within the E-Puck function as expected. Secondly this section will analyse the results and outcome obtained from running the completed project on the E-Pucks.
+
+\subsection{Testing}
+Testing took place throughout the entirety of the implementation stage, before more in-depth testing took place once the implementation had been completed. This testing could be completed in such a way because of the `AGILE' work flow which took place, where the code development would be completed in stages and gradually built up. Therefore each stage can be partially tested after it had been completed.
+
+Firstly, once the main file had been completed, instead of calling the required function, the function name was printed to the terminal. This allowed the group to test if the selector is working properly on the device.
+
+The next heavily tested stage took place when implementing the follow and avoid light functions. This function required careful altering of the variables which set the threshold for finding a nearby light source. This threshold was found using trial and error changing the variable to fit better in all environments as opposed to optimising it for a single environment.
+
+The final function to be tested throughout testing, which also required careful tweaking to complete, was the `followHand' function. Within this function the threshold to evaluate whether the object in front of the camera is a hand or not must be carefully assessed. This was done once again by trial and error, obtaining a the value by improving the last after each test.
+
+One major improvement made because of these tests was that because the image is only taken when an object is found in front of the camera using the infrared sensor much more of the image could be processed and thus finding a hand becomes much more accurate. 
+
+Throughout the final testing of the E-Puck, the E-Puck was ran in a range of scenarios and expected to complete the tasks set out in the introduction of this report. One of the major problems found whilst testing was that the E-Puck would find the hand in front of the camera but then immediately lose track of it again and become stationary. Whilst lowering the threshold for this task solved the problem it also introduced a new one where the E-Puck would follow much more devices not consisting of the colour of human skin
+
+After many different attempts to solve the problem a simple yet effective solution was put into place where once a hand is detected in front of the camera, the E-Puck will then continue to follow the object whilst the object is in range of the infrared sensors. This stops the E-Puck repeatedly taking pictures with the camera and performing costly algorithms on them. This method also greatly reduces battery power and is much more computationally inexpensive for the E-Puck to run.
+
+\subsection{Results}
+
