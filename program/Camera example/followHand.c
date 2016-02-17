@@ -130,7 +130,7 @@ void followHand(void){
 				hImage();
 				//Take a section of the center, this means if there is an error with one it won't effect it as a whole.
 				centreValue = 0;
-				for(i=20; i<60; i++){
+				for(i=0; i<80; i++){
 					centreValue +=hnumbuffer[i];
 				}
 				if(centreValue > 15){
