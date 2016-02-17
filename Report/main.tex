@@ -1,10 +1,19 @@
 \documentclass[12pt]{article}
 \usepackage{listings}
-% \usepackage{caption}
+\usepackage{color}
 \usepackage{graphicx}
 \usepackage[a4paper]{geometry}
 
-\lstset{language=C,captionpos=b}  
+\lstset{language=C,
+	captionpos=b,
+	frame=single,
+	breaklines=true,
+	basicstyle=\ttfamily,
+    keywordstyle=\color{blue}\ttfamily,
+    stringstyle=\color{red}\ttfamily,
+    commentstyle=\color{green}\ttfamily,
+    morecomment=[l][\color{magenta}]{\#}
+} 
 \renewcommand{\lstlistingname}{Code Snippet} 
 
 \begin{document}

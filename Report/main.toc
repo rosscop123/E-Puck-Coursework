@@ -12,5 +12,9 @@
 \contentsline {section}{\numberline {4}Implementation}{4}
 \contentsline {subsection}{\numberline {4.1}Main File}{4}
 \contentsline {subsection}{\numberline {4.2}Breitenburg Follower}{5}
-\contentsline {section}{\numberline {5}Results \& Testing}{5}
-\contentsline {section}{\numberline {6}Conclusion}{5}
+\contentsline {subsection}{\numberline {4.3}Following Light}{7}
+\contentsline {subsection}{\numberline {4.4}Avoiding Light}{7}
+\contentsline {subsection}{\numberline {4.5}Breitenburg Shocker}{7}
+\contentsline {subsection}{\numberline {4.6}Follow Hand}{7}
+\contentsline {section}{\numberline {5}Results \& Testing}{8}
+\contentsline {section}{\numberline {6}Conclusion}{8}
