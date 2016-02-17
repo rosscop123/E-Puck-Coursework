@@ -1,14 +1,12 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.1.7)  16 FEB 2016 15:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.2.17)  17 FEB 2016 20:31
 entering extended mode
- restricted \write18 enabled.
- %&-line parsing enabled.
 **main.tex
-(./main.tex
-LaTeX2e <2015/01/01>
-Babel <3.9l> and hyphenation patterns for 79 languages loaded.
-(/usr/local/texlive/2015/texmf-dist/tex/latex/base/article.cls
+(main.tex
+LaTeX2e <2014/05/01>
+Babel <3.9l> and hyphenation patterns for 68 languages loaded.
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\article.cls"
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
-(/usr/local/texlive/2015/texmf-dist/tex/latex/base/size12.clo
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\size12.clo"
 File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
@@ -23,8 +21,8 @@ File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/listings/listings.sty
-(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/keyval.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\listings\listings.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks14
 )
@@ -41,38 +39,38 @@ Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \lst@lineno=\count92
 \lst@maxwidth=\dimen106
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/listings/lstmisc.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstmisc.sty"
 File: lstmisc.sty 2014/09/06 1.5e (Carsten Heinz)
 \c@lstnumber=\count93
 \lst@skipnumbers=\count94
 \lst@framebox=\box27
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/listings/listings.cfg
+("C:\Program Files\MiKTeX 2.9\tex\latex\listings\listings.cfg"
 File: listings.cfg 2014/09/06 1.5e listings configuration
 ))
 Package: listings 2014/09/06 1.5e (Carsten Heinz)
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphicx.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
 Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphics.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
 Package: graphics 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/trig.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/graphics.cfg
-File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
 )
-Package graphics Info: Driver file: pdftex.def on input line 94.
+Package graphics Info: Driver file: pdftex.def on input line 91.
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/pdftex-def/pdftex.def
+("C:\Program Files\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 
-(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
 Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 )
-(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count95
@@ -80,18 +78,18 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 \Gin@req@height=\dimen107
 \Gin@req@width=\dimen108
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/geometry/geometry.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.sty"
 Package: geometry 2010/09/12 v5.6 Page Geometry
 
-(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
 Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
 Package ifpdf Info: pdfTeX in PDF mode is detected.
 )
-(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifvtex.sty"
 Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
 )
-(/usr/local/texlive/2015/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+("C:\Program Files\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
 \Gm@cnth=\count96
@@ -106,15 +104,14 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@layouthoffset=\dimen115
 \Gm@layoutvoffset=\dimen116
 \Gm@dimlist=\toks16
-)
-(/usr/local/texlive/2015/texmf-dist/tex/latex/listings/lstlang1.sty
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
+("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
 File: lstlang1.sty 2014/09/06 1.5e listings language file
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/listings/lstmisc.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstmisc.sty"
 File: lstmisc.sty 2014/09/06 1.5e (Carsten Heinz)
-) (./main.aux)
-\openout1 = `main.aux'.
-
+) (main.aux)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
 LaTeX Font Info:    ... okay on input line 10.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 10.
@@ -128,7 +125,8 @@ LaTeX Font Info:    ... okay on input line 10.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
 LaTeX Font Info:    ... okay on input line 10.
 \c@lstlisting=\count99
- (/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
+
+("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count100
 \scratchdimen=\dimen117
@@ -141,50 +139,7 @@ LaTeX Font Info:    ... okay on input line 10.
 \MPnumerator=\count104
 \makeMPintoPDFobject=\count105
 \everyMPtoPDFconversion=\toks18
-) (/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
-Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 )
-
-(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ifluatex.sty
-Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
-Package ifluatex Info: LuaTeX not detected.
-)
-Package pdftexcmds Info: LuaTeX not detected.
-Package pdftexcmds Info: \pdf@primitive is available.
-Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode found.
-)
-(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
-Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
-
-(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/grfext.sty
-Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
-
-(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
-Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
-))
-(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/kvoptions.sty
-Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
-
-(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
-Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
-
-(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/etexcmds.sty
-Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
-Package etexcmds Info: Could not find \expanded.
-(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
-(etexcmds)             that some package has redefined \expanded.
-(etexcmds)             In the latter case, load this package earlier.
-)))
-Package grfext Info: Graphics extension search list:
-(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
-G,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 452.
-
-(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
-e
-))
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -266,8 +221,8 @@ LaTeX Font Info:    External font `cmex10' loaded for size
  [1
 
 
-{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./figur
-es/Lboro_Logo.jpg>]
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <./figures/Lboro_Logo.jpg>
+]
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: a4paper
@@ -332,10 +287,8 @@ es/Lboro_Logo.jpg>]
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
- (./main.toc)
+ (main.toc)
 \tf@toc=\write3
-\openout3 = `main.toc'.
-
  [1
 
 
@@ -373,42 +326,63 @@ es/Lboro_Logo.jpg>]
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
+ (Introduction.tex)
+(Background.tex
+Overfull \hbox (0.36836pt too wide) in paragraph at lines 2--3
+\OT1/cmr/m/n/12 The robotics as-so-ci-a-tion in-dus-try de-fines robotics as "a
+ robot is a re-programmable,
+ []
 
-(./Introduction.tex) (./Background.tex) (./Design.tex [2
-
-
-] [3])
-(./Implementation.tex
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 28.
-
-(/usr/local/texlive/2015/texmf-dist/tex/latex/base/omscmr.fd
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 4.
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 28.
-)
-(./Results_&_Testing.tex [4]) (./Conclusion.tex) [5] (./main.bbl) [6
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 4.
+ [2
+
 
 ]
-(./main.aux) ) 
+<figures/Potential_fields.png, id=17, 395.67825pt x 289.68225pt>
+File: figures/Potential_fields.png Graphic file (type png)
+
+<use figures/Potential_fields.png>
+Package pdftex.def Info: figures/Potential_fields.png used on input line 30.
+(pdftex.def)             Requested size: 292.77629pt x 214.35707pt.
+ [3 <./figures/Potential_fields.png>]
+<figures/epcuk.png, id=23, 242.70676pt x 183.68625pt>
+File: figures/epcuk.png Graphic file (type png)
+ <use figures/epcuk.png>
+Package pdftex.def Info: figures/epcuk.png used on input line 47.
+(pdftex.def)             Requested size: 292.77629pt x 221.59674pt.
+
+<figures/hsv.png, id=24, 1606.0pt x 1204.5pt>
+File: figures/hsv.png Graphic file (type png)
+ <use figures/hsv.png>
+Package pdftex.def Info: figures/hsv.png used on input line 64.
+(pdftex.def)             Requested size: 292.77629pt x 219.5759pt.
+)
+(Design.tex [4 <./figures/epcuk.png>] [5 <./figures/hsv.png>])
+(Implementation.tex [6]) (Results_&_Testing.tex) (Conclusion.tex) [7] [8]
+(main.bbl) [9
+
+] (main.aux) ) 
 Here is how much of TeX's memory you used:
- 3347 strings out of 493089
- 48899 string characters out of 6134843
- 140453 words of memory out of 5000000
- 6784 multiletter control sequences out of 15000+600000
- 9750 words of font info for 34 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 38i,8n,49p,699b,1289s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmbx12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmcsc10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmr12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/c
-msy10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-ti12.pfb>
-Output written on main.pdf (7 pages, 127771 bytes).
+ 3028 strings out of 493698
+ 42670 string characters out of 3144412
+ 138524 words of memory out of 3000000
+ 6328 multiletter control sequences out of 15000+200000
+ 9750 words of font info for 34 fonts, out of 3000000 for 9000
+ 1025 hyphenation exceptions out of 8191
+ 27i,8n,49p,700b,1059s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx1
+2.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><
+C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Progra
+m Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/
+MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on main.pdf (10 pages, 1418647 bytes).
 PDF statistics:
- 49 PDF objects out of 1000 (max. 8388607)
- 33 compressed objects within 1 object stream
+ 62 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 21 words of extra memory for PDF output out of 10000 (max. 10000000)
 
