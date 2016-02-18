@@ -133,7 +133,7 @@ void followHand(void){
 				for(i=0; i<80; i++){
 					centreValue +=hnumbuffer[i];
 				}
-				if(centreValue > 15){
+				if(centreValue > 25){
 					handFound = 1;
 				}
 			}
