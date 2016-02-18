@@ -1,5 +1,5 @@
 \section{Background} \label{sec:background}
-The robotics association industry defines robotics as ``a robot is a re-programmable, multi-functional, manipulator designed to move material, parts, tools or specialised devices through variable programmed motions for the performance of a variety of task''. according to that definition any device that is programmed to preform variety of tasks is classified as a robot. Most of the robots consists of :
+The robotics industries association\cite{RIA} defines a robot ``a re-programmable, multi-functional, manipulator designed to move material, parts, tools or specialised devices through variable programmed motions for the performance of a variety of task''\cite{RIAdefinition}. According to that definition any device that is programmed to preform variety of tasks is classified as a robot. Most robots consist of several hardware components such as:
 \begin{itemize}
 	\item Physical body
 	\item Actuators
@@ -8,37 +8,9 @@ The robotics association industry defines robotics as ``a robot is a re-programm
 	\item Processor
 	\item Software 
 \end{itemize}
-Those components are commonly used when designing and developing a robot. A good design is the one who best utilizes these components to reach it's goals effectively.
+These components are commonly used when designing and developing a robot. A good design is considered to be one which best utilizes these components to reach it's goals effectively and efficiently.
 \subsection{Behaviours}
-A robot Behaviour is defined by how it's motor action will be changed to perform a certain action according to it's sensor reading.Robots have three main control architecture:
-\begin{itemize}
-	\item Deliberative approach
-	\item Reactive approach
-	\item Hybrid approach (Deliberative and Reactive) 
-\end{itemize}
-
-The Deliberative approach requires high-level of intelligence and has slow response time. On contrary the reactive approach require simple processing and has real-time response. 
-Designed behaviour of a report will require multiple function to be executed together. A combination of behavioural functions might not achieve the anticipated repose towards a change of the environment, to solve this problem a coordinator function is implemented to ensure correct behaviour of the robot. In designing coordination function there are two main strategies:
-\begin{itemize}
-	\item competitive: In which one behaviour overshadows any other behaviour and should be executed solely.
-	\item cooperative: In which a collection of behaviour is executed to achieve a certain goal.
-\end{itemize} 
-Any Behavioural approach for robots is represented as a vector and to perform cooperative coordination between behaviours we use vectors addition. The main potential fields are uniform, perpendicular, attraction,repulsion and tangential. As Shown in {\ref{fig:Potential_fields}}:
-
-\begin{figure}
-\centering
-\includegraphics[width=0.7\linewidth]{figures/Potential_fields}
-\caption{Five Main Potential Fields}
-\label{fig:Potential_fields}
-\end{figure}
-
-%Make the list A B C instead of 1 2 3%
-\begin{enumerate}
-	\item Uniform means that robot will move in one direction.
-	\item Perpendicular means that robot will move in a direction 90 degrees from the object.
-	\item Attraction will make the object go towards the object.
-	\item Repulsion the robot will move away from the object. \item Tangential when implemented will make the robot rotate and the edge of the object's perimeter. 
-\end{enumerate}
+Many different behaviours can be seen in day to day life. If one was trying to describe a behaviour as simply as possible, one might say a behaviour is a ``mapping of sensory inputs to a pattern of motor actions that are used to achieve a task''\cite{BehaviourDef}. The behaviours robots wish to imitate include all of the common human behaviours. Getting the robots to show a very basic version of this behaviour, such as love, would require the robot to follow nearby object in a show of attraction. Naturally, the main goal in cutting edge research is to develop these skills such that they are indistinguishable to the fully fletched human behaviours.
 
 \subsection{E-Puck}
 
@@ -50,14 +22,13 @@ Any Behavioural approach for robots is represented as a vector and to perform co
 \end{figure}
 
 
-E-Puck robots is a small size educational robot which is designed to be flexible and have a desktop size. It's also a low cost robot due to the choice of the components used. It's user-friendly and interactive. It was designed by Martin Stefanec from the artificial life lab of University of Graz \cite{epuck}. 
+An E-Puck\cite{epuck} is a small sized, educational robot which is designed to allow developers to code on and learn about robotics. The robot is very inexpensive, user-friendly and interactive. It was designed by Martin Stefanec from the artificial life lab of University of Graz who made all the software developed for the E-Puck open source.
 
-It includes a wide range of sensors and actuators. Sensors include infrared-sensors which can be used to detect objects and ambient light. Motors to control the movement of the robot. For visual communication the robot is has 8 LEDs and for audible communication it has a speaker.
+It includes a wide range of sensors and actuators. Sensors include infrared-sensors which can be used to detect objects and ambient light, motors to control the movement of the robot and for communication the robot is has 8 LEDs, a speaker and bluetooth.
 
 \subsection{HSV}
 
-
-HSV stands for Hue, Saturation and value. It's a cylindrical representation of colours, starting at red in 0 degrees, green at 120 degrees and blue at 240 degrees. the vertical axis which is value represents colours ranging from to neutral to black.
+HSV stands for Hue, Saturation and value. It's a cylindrical representation of colours, starting at red in 0 degrees, green at 120 degrees and blue at 240 degrees. Using figure \ref{fig:hsv} one can recognise that the colour space's saturation is most intense in the centre of the cylinder. The saturation decides how washed out the colours appear. The final component value, which increases the higher up the cylinder the pixel value is, decides how much colour or how vibrant each colour appears.
 
 \begin{figure}
 	\centering
@@ -69,5 +40,7 @@ HSV stands for Hue, Saturation and value. It's a cylindrical representation of c
 
 \subsection{Skin Colour}
 
-Skin detection in HSV tends to be more accurate than RGB. For efficient skin color detection RGB image is converted to HSV as HSV relates more to skin colour perception. In Hue skin colours varies from 0 to 50 degrees \cite{hsv_skin}. 
+Skin detection in HSV tends to be more accurate than RGB. As the colour our Hue in HSV trends to be affected much less be external parameters such as ambient light or direct sunlight.
+
+After careful research a paper found on human skin colour\cite{skinDetection}, in the HSV colour plane, found that the skin colour of the majority of people across the globe lies within the range 6\textsuperscript{o} - 38\textsuperscript{o}. The paper when on to discuss how to continue to improve the reliability of finding skin tones within an image although this is beyond the scope of this project as it would make the functions to be described much more computationally expensive. 
  

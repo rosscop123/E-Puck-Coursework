@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.1.7)  18 FEB 2016 15:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.1.7)  18 FEB 2016 17:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -208,6 +208,10 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 )))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip10
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
 (/usr/local/texlive/2015/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2014/09/06 1.5e listings language file
 )
@@ -216,18 +220,18 @@ File: lstmisc.sty 2014/09/06 1.5e (Carsten Heinz)
 ) (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
 \c@lstlisting=\count104
  (/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -318,14 +322,14 @@ Package caption Info: End \AtBeginDocument code.
 File: figures/Lboro_Logo.jpg Graphic file (type jpg)
 
 <use figures/Lboro_Logo.jpg>
-Package pdftex.def Info: figures/Lboro_Logo.jpg used on input line 37.
+Package pdftex.def Info: figures/Lboro_Logo.jpg used on input line 38.
 (pdftex.def)             Requested size: 284.52756pt x 75.73001pt.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 71.
+(Font)              <12> on input line 72.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 71.
+(Font)              <8> on input line 72.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 71.
+(Font)              <6> on input line 72.
  [1
 
 
@@ -438,12 +442,8 @@ es/Lboro_Logo.jpg>]
 
 
 (./Introduction.tex) (./Background.tex
-Overfull \hbox (0.36836pt too wide) in paragraph at lines 2--3
-\OT1/cmr/m/n/12 The robotics as-so-ci-a-tion in-dus-try de-fines robotics as ``
-a robot is a re-programmable,
- []
-
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 4.
+
 (/usr/local/texlive/2015/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
@@ -453,78 +453,71 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 
 
 ]
-<figures/Potential_fields.png, id=18, 395.67825pt x 289.68225pt>
-File: figures/Potential_fields.png Graphic file (type png)
-
-<use figures/Potential_fields.png>
-Package pdftex.def Info: figures/Potential_fields.png used on input line 30.
-(pdftex.def)             Requested size: 292.77629pt x 214.35707pt.
- [3 <./figures/Potential_fields.png>]
-<figures/epcuk.png, id=24, 242.70676pt x 183.68625pt>
+<figures/epcuk.png, id=18, 242.70676pt x 183.68625pt>
 File: figures/epcuk.png Graphic file (type png)
  <use figures/epcuk.png>
-Package pdftex.def Info: figures/epcuk.png used on input line 47.
+Package pdftex.def Info: figures/epcuk.png used on input line 19.
 (pdftex.def)             Requested size: 292.77629pt x 221.59674pt.
 
-<figures/hsv.png, id=25, 1606.0pt x 1204.5pt>
+[3 <./figures/epcuk.png>] <figures/hsv.png, id=24, 1606.0pt x 1204.5pt>
 File: figures/hsv.png Graphic file (type png)
- <use figures/hsv.png>
-Package pdftex.def Info: figures/hsv.png used on input line 64.
+
+<use figures/hsv.png>
+Package pdftex.def Info: figures/hsv.png used on input line 35.
 (pdftex.def)             Requested size: 292.77629pt x 219.5759pt.
- [4 <./figures/epcuk.png>]) (./Design.tex [5 <./figures/hsv.png>]
-<figures/FollowLight.png, id=33, 235.47975pt x 459.51675pt>
+) (./Design.tex [4 <./figures/hsv.png>] [5]
+<figures/FollowLight.png, id=32, 235.47975pt x 459.51675pt>
 File: figures/FollowLight.png Graphic file (type png)
 
 <use figures/FollowLight.png>
 Package pdftex.def Info: figures/FollowLight.png used on input line 30.
 (pdftex.def)             Requested size: 94.10643pt x 183.63516pt.
 
-<figures/AvoidLight.png, id=34, 242.1045pt x 478.1865pt>
+<figures/AvoidLight.png, id=33, 242.1045pt x 478.1865pt>
 File: figures/AvoidLight.png Graphic file (type png)
 
 <use figures/AvoidLight.png>
 Package pdftex.def Info: figures/AvoidLight.png used on input line 36.
 (pdftex.def)             Requested size: 94.10643pt x 185.87177pt.
 
-<figures/FollowHand.png, id=35, 210.18526pt x 516.7305pt>
+<figures/FollowHand.png, id=34, 210.18526pt x 516.7305pt>
 File: figures/FollowHand.png Graphic file (type png)
 
 <use figures/FollowHand.png>
 Package pdftex.def Info: figures/FollowHand.png used on input line 42.
 (pdftex.def)             Requested size: 112.92886pt x 277.63472pt.
 
-<figures/Main.png, id=36, 502.87875pt x 405.9165pt>
+<figures/Main.png, id=35, 502.87875pt x 405.9165pt>
 File: figures/Main.png Graphic file (type png)
  <use figures/Main.png>
 Package pdftex.def Info: figures/Main.png used on input line 52.
 (pdftex.def)             Requested size: 502.87752pt x 405.91551pt.
 )
 (./Implementation.tex [6] [7 <./figures/FollowLight.png> <./figures/AvoidLight.
-png> <./figures/FollowHand.png>] [8 <./figures/Main.png>] [9] [10] [11]
-[12]) (./Results_&_Testing.tex [13] [14]) (./Conclusion.tex) [15] [16]
-(./appendix.tex (./Code/main.c [17
+png> <./figures/FollowHand.png>] [8 <./figures/Main.png>] [9] [10] [11])
+(./Results_&_Testing.tex [12] [13]) (./Conclusion.tex) [14] (./appendix.tex
+(./Code/main.c [15
 
-]) (./Code/finding_Light.h)
-(./Code/finding_Light.c [18] [19] [20]) (./Code/avoidlight.h)
-(./Code/avoidlight.c [21] [22] [23]) [24] (./Code/followHand.h)
-(./Code/followHand.c [25] [26] [27]
+]) (./Code/finding_Light.h) (./Code/finding_Light.c [16]
+[17] [18]) (./Code/avoidlight.h) (./Code/avoidlight.c [19] [20] [21]) [22]
+(./Code/followHand.h) (./Code/followHand.c [23] [24] [25]
 Overfull \hbox (4.12001pt too wide) in paragraph at lines 145--146
 [][][][] 
  []
 
-[28]
+[26]
 Overfull \hbox (4.12001pt too wide) in paragraph at lines 149--150
 [][][][] 
  []
 
-)) [29] (./main.bbl) [30
+)) [27] (./main.bbl) [28
 
 ] (./main.aux) ) 
 Here is how much of TeX's memory you used:
- 4952 strings out of 493089
- 76208 string characters out of 6134843
- 310896 words of memory out of 5000000
- 8329 multiletter control sequences out of 15000+600000
+ 5022 strings out of 493089
+ 76971 string characters out of 6134843
+ 312045 words of memory out of 5000000
+ 8396 multiletter control sequences out of 15000+600000
  10219 words of font info for 36 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  42i,9n,49p,724b,1452s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -537,10 +530,10 @@ mr8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy
 10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti1
 2.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12
 .pfb>
-Output written on main.pdf (31 pages, 1577202 bytes).
+Output written on main.pdf (29 pages, 1540832 bytes).
 PDF statistics:
- 147 PDF objects out of 1000 (max. 8388607)
- 95 compressed objects within 1 object stream
+ 138 PDF objects out of 1000 (max. 8388607)
+ 90 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 41 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 36 words of extra memory for PDF output out of 10000 (max. 10000000)
 

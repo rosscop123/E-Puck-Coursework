@@ -1,12 +1,26 @@
 \begin{thebibliography}{1}
 
-\bibitem{hsv_skin}
-Oliveia V.A.{,}~Conci A.
-\newblock Skin detection using hsv color space, 2016.
+\bibitem{RIA}
+Robotics~Industries Association.
+\newblock \url{http://www.robotics.org/}, 2016.
+
+\bibitem{skinDetection}
+V.~A. OLIVEIRA{,}~A. CONCI.
+\newblock Skin detection using hsv color space, 2008.
+
+\bibitem{RIAdefinition}
+INC.
+\newblock Robotics.
+\newblock \url{http://www.inc.com/encyclopedia/robotics.html}, 2016.
+
+\bibitem{BehaviourDef}
+Dr.~Q. Meng.
+\newblock Behaviour based robotics lecture slides, 2016.
 
 \bibitem{epuck}
 Pugh J.{,} Cianci C.{,} Klaptocz A.{,} Magnenat S.{,} Zufferey J.-C.{,}
   Floreano~D. Mondada F.{,} Bonani M.{,} Raemy~X. and A~Martinoli.
-\newblock The e-puck, a robot designed for education in engineering, 2016.
+\newblock The e-puck, a robot designed for education in engineering.
+\newblock \url{http://http://www.e-puck.org}, 2016.
 
 \end{thebibliography}
