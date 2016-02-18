@@ -1,0 +1,34 @@
+\contentsline {section}{\numberline {1}Introduction}{2}
+\contentsline {section}{\numberline {2}Background}{2}
+\contentsline {subsection}{\numberline {2.1}Behaviours}{3}
+\contentsline {subsection}{\numberline {2.2}E-Puck}{4}
+\contentsline {subsection}{\numberline {2.3}HSV}{4}
+\contentsline {subsection}{\numberline {2.4}Skin Colour}{5}
+\contentsline {section}{\numberline {3}Design}{5}
+\contentsline {subsection}{\numberline {3.1}Task A}{5}
+\contentsline {subsection}{\numberline {3.2}Task B}{6}
+\contentsline {subsubsection}{\numberline {3.2.1}Flowchart}{9}
+\contentsline {section}{\numberline {4}Implementation}{9}
+\contentsline {subsection}{\numberline {4.1}Main File}{9}
+\contentsline {subsection}{\numberline {4.2}Breitenburg Follower}{9}
+\contentsline {subsection}{\numberline {4.3}Following Light}{12}
+\contentsline {subsection}{\numberline {4.4}Avoiding Light}{12}
+\contentsline {subsection}{\numberline {4.5}Breitenburg Shocker}{12}
+\contentsline {subsection}{\numberline {4.6}Follow Hand}{12}
+\contentsline {section}{\numberline {5}Testing \& Results}{13}
+\contentsline {subsection}{\numberline {5.1}Testing}{14}
+\contentsline {subsection}{\numberline {5.2}Results}{14}
+\contentsline {section}{\numberline {6}Conclusion}{15}
+\contentsline {subsection}{\numberline {6.1}Improvements}{15}
+\contentsline {section}{\numberline {A}Code}{17}
+\contentsline {subsection}{\numberline {A.1}Main}{17}
+\contentsline {subsubsection}{\numberline {A.1.1}C File}{17}
+\contentsline {subsection}{\numberline {A.2}finding\_Light}{18}
+\contentsline {subsubsection}{\numberline {A.2.1}Header File}{18}
+\contentsline {subsubsection}{\numberline {A.2.2}C File}{18}
+\contentsline {subsection}{\numberline {A.3}avoidlight}{21}
+\contentsline {subsubsection}{\numberline {A.3.1}Header File}{21}
+\contentsline {subsubsection}{\numberline {A.3.2}C File}{21}
+\contentsline {subsection}{\numberline {A.4}followHand}{25}
+\contentsline {subsubsection}{\numberline {A.4.1}Header File}{25}
+\contentsline {subsubsection}{\numberline {A.4.2}C File}{25}

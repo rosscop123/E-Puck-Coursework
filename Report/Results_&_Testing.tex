@@ -18,4 +18,11 @@ Throughout the final testing of the E-Puck, the E-Puck was ran in a range of sce
 After many different attempts to solve the problem a simple yet effective solution was put into place where once a hand is detected in front of the camera, the E-Puck will then continue to follow the object whilst the object is in range of the infrared sensors. This stops the E-Puck repeatedly taking pictures with the camera and performing costly algorithms on them. This method also greatly reduces battery power and is much more computationally inexpensive for the E-Puck to run.
 
 \subsection{Results}
+\label{sec:Results}
+Throughout the testing of the software implemented within the E-Puck, analysis of the performance of both E-Pucks were also taken. Each behaviour was found to perform particularly well when running individually. With the E-Pucks performing exactly as expected.
 
+One strange anomaly found whilst testing the E-Puck is that the infrared sensors do not pick up the ambient light produced from a single LED, the flash on a smart phone for example, very well. Whilst this was an issue with the E-Puck itself there was not much the group could do to improve the results in this situation. For all other sources of light, providing they were not too dim, the E-Puck responded very well turning and moving towards the light source.
+
+One other small issue found whilst testing the E-Pucks was with the second E-Puck that was to follow the first. The E-Puck would very often lose track of the first E-Puck, which is possibly down to the speed at which they are traveling with respect to each other. Although, the maneuver where the first E-Puck turns fairly quickly increases the probability of the second E-Puck losing track of it. To try to reduce the frequency that this error occurred the speeds were altered to find an optimum speed at which the 2 E-Pucks operated best together. 
+
+Overall, all of the features preformed very well on the majority of the tests, preforming much better than expected at finding hands with different skin tones and a light source in different lighting environments.
